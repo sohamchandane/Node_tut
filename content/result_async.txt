@@ -1,1 +1,1 @@
-Hello we are inside first.txt, which is inside content but outside subfolder or Inside test.txt
+Hello this is first text file or test txt
