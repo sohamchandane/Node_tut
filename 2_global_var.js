@@ -10,8 +10,9 @@ console.log(`filename: ${__filename}`);
 console.log('\n');
 console.log(require);
 
-console.log('\n');
+console.log('\nModule');
 console.log(module);
+console.log(module.path);
 
 console.log('\n');
 console.log(process);

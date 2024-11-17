@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.div-header{
+    background-color: lightpink;
+    position: relative;
+    height: 12rem;
+}
+
+.div-header-nav{
+    background-color: lightcoral;
+    border: 0.1rem dashed black;
+    height: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+.div-header-nav > a{
+    display: inline-block;
+    color: brown;
+    text-decoration: none;
+    
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    width: 6rem;
+}
+
+#heading{
+    padding: 0.5rem 0rem;
+    border: 0.3rem solid black;
+    width: 20rem;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article > .div-header{
+    height: 30rem;
+    background-image: url("pexels-creative-vix-9754.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#username, #mail{
+    height: 3rem;
+    width: 30rem;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#mail{
+    top: 45%;
+}
+
+.b{
+    margin: 2rem;
+    padding: 2rem 2rem;
+    border: 0.1rem solid black;
+    border-radius: 4rem;
+    background: none;
+    background-color: lightcoral;
+    color: black;
+
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+}
+
+.b:hover{
+    background-color: rgb(48, 46, 46);
+    color: lightcoral;
+}
+
+#login{
+    left: 53%;
+}
+
+footer > .div-header-nav{
+    height: 8rem;
+}
+
+.div-list{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.div-list > ul{
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.div-list > ul > li{
+    padding: 0.4rem;
+}
+
+#list1{
+    left: 42%;
+}
+
+#list2{
+    left: 52%;
+}
